@@ -3,6 +3,16 @@
 
 #pragma once
 
+#include "glad/glad.h" 
+#include "GLFW/glfw3.h"
+
 #include <iostream>
+
+namespace Engine {
+	GLFWwindow* window;
+
+	int Init();
+	void Start();
+}
 
 // TODO: Reference additional headers your program requires here.
